@@ -15,6 +15,13 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+
+
+###1. 后台服务 LightControl实现http请求
+###2. 外框MyApp实现一个外框
+###3. 一个包含状态的MyHomePage，在_MyHomePageState里面实现状态控制
+
+
 ## Code
 
 ```
