@@ -21,6 +21,7 @@ class LightControlPage extends StatelessWidget {
       '当前状态:',
     );
   }
+
   Widget content(BuildContext context){
 
     return BlocBuilder<LightControlBloc, String>(

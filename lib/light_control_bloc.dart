@@ -14,10 +14,11 @@ class LightControlBloc extends Bloc<LightControlEvent, String> {
   Stream<String> mapEventToState(LightControlEvent event) async* {
     switch (event) {
       case LightControlEvent.TOGGLE:
+        yield "处理请求，请稍候...";
         var status = await LightAPIProvider().toggleLightWithStatus();
         yield status;
         break;
-
+    
     }
   }
 }
