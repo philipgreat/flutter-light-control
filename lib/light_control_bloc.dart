@@ -18,7 +18,7 @@ class LightControlBloc extends Bloc<LightControlEvent, String> {
         var status = await LightAPIProvider().toggleLightWithStatus();
         yield status;
         break;
-    
+
     }
   }
 }
